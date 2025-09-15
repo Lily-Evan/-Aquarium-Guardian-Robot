@@ -31,14 +31,9 @@ The robot interacts with fish, algae, and the aquarium environment, performing t
 
 ---
 
-## 🛠 Requirements
-
-```bash
-Python 3.9+
-pip install numpy opencv-python
 
 
-🚀 Usage
+##🚀 Usage
 # Run the simulation
 python aquarium_guardian.py
 
@@ -82,3 +77,9 @@ Dynamic algae growth & turbidity changes
 📊 Export stats to CSV
 
 🔌 Integration with real hardware (microcontrollers)
+
+## 🛠 Requirements
+
+```bash
+Python 3.9+
+pip install numpy opencv-python
