@@ -35,8 +35,12 @@ The robot interacts with fish, algae, and the aquarium environment, performing t
 
 ---
 
-🚀 Usage
-bash
+## 🛠 Requirements
+
+```bash
+Python 3.9+
+pip install numpy opencv-python
+
 
 # Run the simulation
 python aquarium_guardian.py
@@ -46,8 +50,7 @@ ESC → Exit the simulation window
 
 # Output
 aquarium_guardian.mp4 is saved automatically
-📊 Configurable Parameters
-python
+
 
 N_FISH        # number of fish
 FISH_SPEED    # swimming speed
@@ -55,38 +58,11 @@ ALGAE_GROWTH  # algae growth rate
 FEED_INTERVAL # feeding frequency (steps)
 ROBOT_SPEED   # robot max speed
 ROBOT_ACCEL   # robot acceleration
+
 📹 Example Output
+
 Fish swimming, schooling & changing color with stress
 
 Robot patrolling, feeding, cleaning algae
 
 Dynamic algae growth & turbidity changes
-
-📐 System Architecture
-lua
-
-+------------+        +--------------+        +--------+
-|   Fish     | -----> | Environment  | -----> | Render |
-+------------+        +--------------+        +--------+
-       ^                      |
-       |                      v
-       +-----------------+  Robot  |
-                         +---------+
-💡 Future Ideas
-🤖 Machine Learning for adaptive cleaning/feeding
-
-🕹 GUI for manual user control
-
-📊 Export stats to CSV
-
-🔌 Integration with real hardware (microcontrollers)
-
-## 🛠 Requirements
-
-```bash
-Python 3.9+
-pip install numpy opencv-python
-
-
-
-
