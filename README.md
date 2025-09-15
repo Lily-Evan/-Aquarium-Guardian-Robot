@@ -35,14 +35,9 @@ The robot interacts with fish, algae, and the aquarium environment, performing t
 
 ---
 
-## 🛠 Requirements
-
-```bash
-Python 3.9+
-pip install numpy opencv-python
 🚀 Usage
 bash
-Αντιγραφή κώδικα
+
 # Run the simulation
 python aquarium_guardian.py
 
@@ -53,7 +48,7 @@ ESC → Exit the simulation window
 aquarium_guardian.mp4 is saved automatically
 📊 Configurable Parameters
 python
-Αντιγραφή κώδικα
+
 N_FISH        # number of fish
 FISH_SPEED    # swimming speed
 ALGAE_GROWTH  # algae growth rate
@@ -69,7 +64,7 @@ Dynamic algae growth & turbidity changes
 
 📐 System Architecture
 lua
-Αντιγραφή κώδικα
+
 +------------+        +--------------+        +--------+
 |   Fish     | -----> | Environment  | -----> | Render |
 +------------+        +--------------+        +--------+
@@ -85,3 +80,13 @@ lua
 📊 Export stats to CSV
 
 🔌 Integration with real hardware (microcontrollers)
+
+## 🛠 Requirements
+
+```bash
+Python 3.9+
+pip install numpy opencv-python
+
+
+
+
